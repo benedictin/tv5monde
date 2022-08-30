@@ -1048,7 +1048,7 @@ h2{
         display: block;
     }
     .overlay,.overlay-image{
-      display: none;
+        width: none;
     }
     .afrique-bloc{
         width: 100%;
