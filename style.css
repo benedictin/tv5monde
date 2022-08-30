@@ -1,0 +1,1060 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrap{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.navigation img{
+    width: 90px;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.navigation-connexion{
+    display: flex;
+    align-items: center;
+}
+
+.navigation-connexion a{
+   margin-left: 30px;
+   width: 60px;
+   font-weight: bold;
+   color: black;
+   text-decoration: none;
+}
+
+.navigation-connexion img{
+    width: 50px;
+}
+
+.separator{
+    border: 1px solid #a3a3a3;
+    height: 20px;
+    background-color: black;
+}
+
+.actuality-image img{
+    width: 50%;
+}
+
+.actuality{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.bloc-image{
+   display: flex;
+}
+
+.bloc-image img{
+    width: 100%;
+}
+
+.actuality-image{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.bloc-image {
+    position: relative;
+    width: 50%;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(transparent, black);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+  
+.bloc-image:hover .overlay {
+    height: 50%;
+}
+  
+.texte {
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.texte a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px;
+    margin-right: 7px;
+}
+
+.textes {
+    font-size: 20px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin-left: 5px;
+
+}
+
+.textes a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 5px;
+   
+}
+
+.cinema{
+    background-color:#0d93e7;   
+}
+
+.revise{
+    border: 1px solid white;
+}
+
+.resume{
+    margin-top: 10px;
+
+}
+
+.resume a{
+    font-size: 20px;
+}
+
+.resume p{
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.replay{
+    background-color:#0d93e7;
+    border-radius: 20px;
+    width: 50%;
+    margin: auto;
+    padding: 3px;
+}
+
+.replay-video{
+    background-color:#0d93e7;
+    border-radius: 20px;
+    width: 50%;
+    padding: 3px;
+    margin-top: 5px;
+}
+
+.replay-video a{
+   padding: 10px;
+}
+
+.replay-video i{
+    margin-left: 3px;
+}
+
+.replay-videos{
+    background-color:#0d93e7;
+    border-radius: 20px;
+    padding: 3px;
+    margin-top: 5px;
+    width: 30%;
+}
+
+.image-afrique{
+    background-color: green;
+}
+
+.bloc-actuality{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.overlay-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(transparent, black);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+  
+.bloc-image:hover .overlay-image {
+    height: 100%;
+}
+
+h2{
+    padding-bottom: 20px;
+}
+
+.news{
+    background-color: #ebeae8;
+}
+
+.new{
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.contry{
+    display: flex;
+}
+
+.back{
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+.lozenge{
+    width: 0;
+    height: 0;
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid transparent;
+    border-left: 20px solid  #d9d8d7;
+    margin-right: 20px;
+}
+
+.now{
+    background-color: #d9d8d7;
+    width: 10%;
+}
+
+.now p{
+    margin-top: 8px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    color: #e66f44;
+}
+
+.actuality-moment{
+    display: flex;
+}
+
+.event{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    color: #1a83b7;
+}
+
+.information img{
+    width: 100%;
+}
+
+.information{
+   display: flex;
+   font-weight: bold;
+   margin-bottom: 20px;
+}
+
+.info{
+    margin-right: 15px;
+    margin-left:15px ;
+}
+
+.journal{
+    margin-bottom: 20px;
+}
+
+.journal-type{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    width: 66%;
+}
+
+.journal-type a{
+    text-decoration: none ;
+    color: black;
+}
+
+.journal-type :hover{
+    background-color: #0270bc;
+    color: white;
+}
+
+.information-online{
+    display: flex;
+    margin-bottom: 50px; 
+}
+
+.information-online video{
+    width: 66%;
+}
+
+.afrique-bloc{
+    width: 35%;
+}
+
+.infos{
+    margin-left: 20px;
+    background-color:white;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    padding: 7px;
+}
+
+.infos a{
+    text-decoration: none;
+    color: #0270bc;
+}
+
+.date{
+    color:  #717272;
+    font-size: 10px;
+}
+
+.text{
+    color: #0d93e7;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.more-information{
+    border: 1px solid#0d93e7;
+    width: 35%;
+    background-color:white;
+    border-radius: 20px;
+    padding: 6px;
+    margin-left: 20px;
+   
+}
+
+.more-information a{
+    padding: 5px;
+    color:#0d93e7;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 12px;
+}
+
+.tv5-monde{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.tv5-monde p{
+    color:  #434343;
+}
+
+.tv5-afrique{
+    border: 1px solid #0270bc;
+    background-color: #0270bc;
+    border-radius: 20px;
+    padding: 6px;
+}
+
+.tv5-afrique a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    margin: 15px;
+}
+
+.line hr{
+    margin-bottom: 50px;
+}
+
+.afrique{
+    background-color: white;
+}
+
+.titre{
+    color: green;
+}
+
+.afrique-news{
+    background-image: url('image/0aba273ec8cde1a54e8decba4e4e2da6.jpg');
+    width: 50%;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+
+.afrique-serie{
+    background-image: url('image/7b31f4480552195ce2756cc781ad24f4.jpg');
+    width: 50%;
+    height: 300px;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.afrique-series{
+    background-image: url('image/4215f6353ce038dbefa70ce7f7505a3b.jpg');
+    width: 50%;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+
+.afrique-info{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.afrique-news p{
+    color: white;
+    font-weight: bold;
+    padding: 40px;
+}
+
+.africa-type{
+    text-decoration: none;
+    color: white;
+    border: 1px solid green;
+    background-color: green;
+}
+
+.text-serie {
+    color: white;
+    font-weight: bold;
+    margin: 5px;
+    margin-top: 195px;
+    font-weight: bold;
+}
+
+.infos-afrique{
+    margin-left: 20px;
+    background-color: #f3cb47;
+    padding: 7px;
+}
+
+.infos-title{
+   color:  #f3cb47;
+}
+
+.line-title{
+    background-color: #f3cb47;
+    border: 1px solid #f3cb47;
+    width: 5%;
+    height: 1px;
+}
+
+.text-infos{
+    padding: 15px;
+}
+
+.infos-link{
+    background-color:#ebeae8;
+    margin-left: 20px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.infos-link a{
+    text-decoration: none;
+    color: black;
+}
+
+.infos-afrique p{
+    font-weight: bold;
+    color: white;
+}
+
+.infos-link .more-information{
+    background-color:#ebeae8;
+    color:#0d93e7;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 0;
+}
+
+.tv5monde-afrique{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.tv5-afrique-info{
+    border: 1px solid  green;
+    background-color: green;
+    border-radius: 20px;
+    padding: 5px; 
+    font-size: 12px; 
+}
+
+.tv5-afrique-info a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.revise{
+    background-color:#303030;
+}
+
+.review{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+
+.review-bloc{
+    display: flex;
+}
+
+
+.review-bloc a{
+    margin-right: 2px;
+    text-decoration: none;
+    color: white;
+    background-color:#616060;
+    display: flex;
+    height: 70px;
+    padding: 16px;
+    font-size: 11px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.review-bloc a:hover{
+    background-color: #0d93e7;
+}
+
+.text-review p{
+    color: white;
+}
+
+.info-image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.info-image img{
+    margin-bottom: 20px;
+}
+.block {
+    position: relative;
+}
+
+.overlay-block{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: linear-gradient(transparent, black);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+  margin-bottom: 20px;
+    
+}
+  
+.block:hover .overlay-block {
+  height: 100%;
+}
+
+.text-title{
+    margin-bottom: 10px;
+}
+
+.languages{
+    background-color: white;
+}
+
+.learns{
+    margin-bottom: 5px;
+}
+
+.learns a{
+    color: #1e8c99;
+    text-decoration: none;
+}
+
+.learn{
+    font-weight: bold;
+}
+
+.language{
+    font-size: 30px;
+}
+
+.line-language{
+    background-color: #0d93e7;
+    border: 1px solid #0d93e7;
+    width: 5%;
+    height: 1px;
+}
+
+.learn-french{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.french{
+   width: 50%;
+}
+
+.learn-online{
+    padding: 10px;
+    background-color: #1e8c99;
+}
+
+.learn-online a{
+    color: white;
+    font-size: 20px;
+}
+
+.learn-online p{
+    color: white;
+}
+
+.to-learn{
+    font-weight: bold;
+}
+
+.french a{
+    text-decoration: none;
+}
+
+.cicle{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin-bottom: 15px;
+}
+
+.cicle img{
+    padding: 7px;
+}
+
+.a1{
+    color: orange;
+}
+
+.a2{
+    color:greenyellow;
+    font-weight: bold;
+}
+
+.b1{
+    color: #0d93e7;
+}
+
+.b2{
+    color: purple;
+}
+
+.find{
+    background-color: #ededed;
+    padding: 15px;
+}
+
+.theme h3{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.theme a{
+    font-size: 13px;
+    margin-right: 10px;
+    border: 1px solid #1e8c99;
+    color: #1e8c99;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.bar a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #c62a3f;
+    margin-bottom: 20px;
+}
+
+.bar{
+    margin-bottom: 5px;
+}
+
+.to-teach{
+    font-weight: bold;
+}
+
+.teaching-line{
+    background-color: #c62a3f;
+    border: 1px solid #c62a3f;
+    width: 5%;
+    height: 1px;
+}
+
+.teach-french{
+    display: flex;
+    justify-content: space-between;
+}
+
+.teach-online{
+    background-color:  #c62a3f;
+    color: white;
+    padding: 10px;
+}
+
+.teach-online a{
+    color: white;
+}
+
+.type{
+   display: flex;
+}
+
+.type{
+    color: black;
+}
+
+.themes h3{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.themes a{
+    font-size: 13px;
+    margin-right: 10px;
+    border: 1px solid #c62a3f;
+    color: #c62a3f;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.teach{
+    margin-bottom: 80px;
+}
+
+.title-bloc a{
+    text-decoration: none;
+    color: #f1960d;
+    font-size: 20px;
+}
+
+.title-bloc{
+    margin-bottom: 15px;
+}
+
+.discover{
+    font-weight: bold;
+}
+
+.discover-bar{
+    background-color:#f1960d;
+    border: 1px solid #f1960d;
+    width: 20%;
+    height: 1px;
+}
+
+.film{
+    background-image: url('image/821ee841d9f6907d68dbf74fe5f19148.jpg');
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 50%;
+}
+
+.film a{
+    text-decoration: none;
+    background-color: #eb9615;
+    color: white;
+    padding: 5px;
+    margin-bottom: 50px;
+}
+
+.article{
+    background-image: url('image/029bc421f8570c161def72818c9d944d.jpg');
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 50%;
+}
+
+.article a{
+    text-decoration: none;
+    background-color: #eb9615;
+    color: white;
+    padding: 5px;
+}
+
+.dicte{
+    background-image: url('image/a23b8b91c3f9e00233aaffb3a411be03.jpg');
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 50%;
+}
+
+.dicte a{
+    text-decoration: none;
+    background-color: #eb9615;
+    color: white;
+    padding: 5px;
+}
+
+.subject{
+    margin-top: 180px;
+    padding: 20px;
+}
+
+.subject p{
+    color: white;
+    font-weight: bold;
+}
+
+.discovery{
+    display: flex;
+    justify-content: space-around;
+}
+
+.title-bloc{
+    display: flex;
+    justify-content: space-between;
+    width: 87%;
+}
+
+.french-language{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.language-link a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: #2d2d2d;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.tv5-language p{
+    color: #565656;
+}
+
+.separator-line{
+    background-color: black;
+    width: 100%;
+    height: 1px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-link a{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+}
+
+.icons a{
+    margin-right: 5px;
+    color: black;
+}
+
+.receive i{
+    margin-right: 10px;
+    color: #23d4e8;
+}
+
+.receive a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+@media screen and (max-width:680px){
+    .wrap{
+        margin: 0;
+        font-size: 10px;
+    }
+    .navigation-connexion a{
+        margin-left: 15px;
+    }
+    .actuality-moment{
+        height: 50px;
+        width: 900px;
+    }
+    .overlay,.overlay-image{
+        display: none;
+    }
+    .back{
+        overflow: scroll;
+        font-size: 11px;
+        height: 30px;
+    }
+    .now p{
+        font-size: 11px;
+    }
+    .now{
+        height: 35px;
+    }
+    .event{
+        margin-bottom: 8px;
+    }
+    .information{
+        display: block;
+        padding: 10px;
+    }
+    .information p{
+        margin-bottom: 20px;
+    }
+    .info{
+        margin: 0;
+    }
+    .journal-type{
+       width: 100%;
+    }
+    .information-online{
+        display: block;
+    }
+    .tv5-monde,.tv5monde-afrique{
+        display: block;
+    }
+    .tv5-monde p{
+        margin-bottom: 5px;
+    }
+    .tv5monde-afrique p{
+        margin-bottom: 5px;
+    }
+    .more-information{
+        width: 50%;
+    }
+    .tv5-afrique{
+        width: 50%;
+    }
+    .tv5-afrique-info{
+        width: 60%;
+        margin: auto;
+    }
+    .afrique-info{
+        display:block;
+    }
+    .afrique-info p{
+        margin: auto;
+    }
+    .afrique-news,.afrique-serie,.afrique-series{
+      border: 1px solid white;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .afrique-serie{
+        margin: 0;
+    }
+    .afrique-series{
+        margin-top: 20px;
+    }
+    .afrique-bloc{
+        width: 100%;
+    }
+    .infos-afrique,.infos-link,.text,.infos{
+        margin: 0;
+        margin-bottom: 8px;
+    }
+    .information-online video{
+        width: 100%;
+    }
+    .review-bloc{
+        flex-wrap: wrap;
+    }
+    .block img{
+        width: 100%;
+    }
+    .replay-video {
+        width: 70%;
+    }
+    .tv5-afrique{
+       margin-top: 10px;
+       margin: auto;
+    }
+    .review-link{
+        padding: 15px;
+    }
+    .learn-french,.french-language{
+        display: block;
+    }
+    .learn-image,.french,.teach-image{
+        width: 100%;
+    }
+    .cicle {
+        margin: auto;
+    }
+    .green-button,.blue-button{
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+   .teach-french,.footer{
+        display: block;
+   }
+   .film,.article,.dicte{
+        width: 100%;
+        margin-bottom: 10px;
+   }
+   .discovery{
+        flex-wrap: wrap;
+   }
+   .language-link{
+        margin-top:10px;
+   }
+}
+@media screen and (min-width:681px) and (max-width:1278px){
+    .review-bloc{
+        flex-wrap: wrap;
+    }
+    .information-online{
+        display: block;
+    }
+    .afrique-bloc{
+        width: 100%;
+    }
+    .infos-afrique,.infos-link,.text,.infos{
+        margin: 0;
+        margin-bottom: 8px;
+    }
+    .learn-french,.teach-french,.french-language{
+        display: block;
+    }
+    .learn-image,.teach-image{
+        width: 100%;
+    }
+   .french{
+    width: 100%;
+   }
+   .language-link{
+    margin-top: 10px;
+   }
+   .event{
+    font-size: 12px;
+   }
+   .now p{
+    font-size: 9px;
+   }
+   
+}
