@@ -891,6 +891,16 @@ h2{
     font-weight: bold;
 }
 @media screen and (max-width:680px){
+    .actuality{
+       flex-direction: column;
+    }
+    .actuality img{
+        width: 200%;
+    }
+   .actuality-image{
+      width: 100%;
+      flex-direction: column;
+   }
     .wrap{
         margin: 0;
         font-size: 10px;
@@ -903,7 +913,13 @@ h2{
         width: 900px;
     }
     .overlay,.overlay-image{
-        display: none;
+        width:200%;
+    }
+    .bloc-image:hover .overlay{
+        height: 100%;
+    }
+    .replay{
+        width: 100%;
     }
     .back{
         overflow: scroll;
@@ -1031,6 +1047,9 @@ h2{
     .information-online{
         display: block;
     }
+    .overlay,.overlay-image{
+      display: none;
+    }
     .afrique-bloc{
         width: 100%;
     }
@@ -1056,5 +1075,4 @@ h2{
    .now p{
     font-size: 9px;
    }
-   
 }
